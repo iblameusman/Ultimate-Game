@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc54b66205bf1c4dbddd1aaa4d31010, type: 3}
+  m_Name: SO_MenuCameraConfig
+  m_EditorClassIdentifier: DodgeGame.Runtime::DodgeGame.Data.CameraConfig
+  defaultYaw: 0
+  defaultPitch: 40
+  defaultDistance: 23
+  orbitSpeedMouse: 100
+  orbitSpeedGamepad: 120
+  zoomSpeed: 6
+  invertY: 0
+  minPitch: 25
+  maxPitch: 75
+  minDistance: 10
+  maxDistance: 32
+  smoothingTime: 0.12
+  resetDuration: 0.4

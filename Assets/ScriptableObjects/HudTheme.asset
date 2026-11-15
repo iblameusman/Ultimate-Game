@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb0bb058f8b73f64998e618a0cec5a82, type: 3}
+  m_Name: HudTheme
+  m_EditorClassIdentifier: DodgeGame.Runtime::DodgeGame.Data.HudTheme
+  panelColor: {r: 0.9137, g: 0.9294, b: 0.9412, a: 0.85}
+  panelBorderColor: {r: 0.7216, g: 0.7608, b: 0.7922, a: 1}
+  panelInnerBevelColor: {r: 1, g: 1, b: 1, a: 1}
+  textPrimary: {r: 0.1176, g: 0.1647, b: 0.2, a: 1}
+  textSecondary: {r: 0.2902, g: 0.3451, b: 0.3882, a: 1}
+  accentReady: {r: 0.2392, g: 0.8627, b: 0.1647, a: 1}
+  accentActive: {r: 0.1843, g: 0.6078, b: 1, a: 1}
+  cooldownFill: {r: 0.6039, g: 0.651, b: 0.6863, a: 1}
+  danger: {r: 0.898, g: 0.2824, b: 0.302, a: 1}
+  glowColor: {r: 0.2392, g: 0.8627, b: 0.1647, a: 0}

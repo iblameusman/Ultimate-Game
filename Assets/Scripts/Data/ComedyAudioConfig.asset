@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0d7f1f6b07b0448932496fed99570e, type: 3}
+  m_Name: ComedyAudioConfig
+  m_EditorClassIdentifier: DodgeGame.Runtime::DodgeGame.Data.ComedyAudioConfig
+  entries:
+  - clipId: CD_01
+    zone: 0
+    clips:
+    - {fileID: 8300000, guid: c18df4ea7695ccd4ebe726c8a41def3f, type: 3}
+    - {fileID: 8300000, guid: 85b73cde175fc99489861a6f570efc19, type: 3}
+    volume: 0.7
+    priority: 2
+    cooldown: 0.25
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[Whoosh]'
+  - clipId: CD_02
+    zone: 0
+    clips:
+    - {fileID: 8300000, guid: 9a991dc198ddf554bb1f022cbe2af5df, type: 3}
+    - {fileID: 8300000, guid: 46e6eecda0316ce4c8f91e1b16bd6d43, type: 3}
+    volume: 0.7
+    priority: 2
+    cooldown: 0.25
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[Boing]'
+  - clipId: CD_03
+    zone: 0
+    clips:
+    - {fileID: 8300000, guid: 9b45141682716b04b95138bfe03bee44, type: 3}
+    - {fileID: 8300000, guid: a0a3c5501140d1d41bc042b75cbaec38, type: 3}
+    volume: 0.7
+    priority: 2
+    cooldown: 0.25
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[Zip]'
+  - clipId: CD_04
+    zone: 0
+    clips:
+    - {fileID: 8300000, guid: c0069fff4f7df7843b63aeb55248aae3, type: 3}
+    - {fileID: 8300000, guid: f44579defc229bc42922c34e9dfcbad4, type: 3}
+    volume: 0.7
+    priority: 2
+    cooldown: 0.25
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[Blink]'
+  - clipId: ST_05
+    zone: 1
+    clips:
+    - {fileID: 8300000, guid: 374ca15f468bb4f4481acf2e01acf704, type: 3}
+    - {fileID: 8300000, guid: 88810067e3b7b0442b5f3c95b6bd8365, type: 3}
+    volume: 0.85
+    priority: 4
+    cooldown: 0.5
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[5x Streak!]'
+  - clipId: ST_10
+    zone: 1
+    clips:
+    - {fileID: 8300000, guid: e903c99d8dfa67644ae64ab6f1929a0e, type: 3}
+    - {fileID: 8300000, guid: d0b159849fb2d8f45b3e35e1fe915e70, type: 3}
+    volume: 0.85
+    priority: 4
+    cooldown: 0.5
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[10x Mega Streak!]'
+  - clipId: ST_15
+    zone: 1
+    clips:
+    - {fileID: 8300000, guid: 529a143e2c673a04a80c4e67b192e89e, type: 3}
+    - {fileID: 8300000, guid: 267b06e3a9835e84ba5a2c4be009befa, type: 3}
+    volume: 0.85
+    priority: 4
+    cooldown: 0.5
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[15x Ultra Streak!]'
+  - clipId: ST_20
+    zone: 1
+    clips:
+    - {fileID: 8300000, guid: 63e57278b611b0540af8b4abbd213703, type: 3}
+    - {fileID: 8300000, guid: c7434cec65010c246b8bcf659dac8ebd, type: 3}
+    volume: 0.85
+    priority: 4
+    cooldown: 0.5
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[20x GODLIKE STREAK!]'
+  - clipId: ST_BREAK
+    zone: 1
+    clips:
+    - {fileID: 8300000, guid: d5e6813e5fefb544988679d2e6410995, type: 3}
+    - {fileID: 8300000, guid: fab340fcf1a18484bbe44005be81a147, type: 3}
+    volume: 0.85
+    priority: 4
+    cooldown: 0.5
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[Streak Lost!]'
+  - clipId: DH_01
+    zone: 2
+    clips:
+    - {fileID: 8300000, guid: 56e3becf1ba0cc64db2bac89b28d46a4, type: 3}
+    - {fileID: 8300000, guid: cab1b9452b67c924eae51c5b7c2e8553, type: 3}
+    volume: 0.9
+    priority: 5
+    cooldown: 0.4
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[Bonk!]'
+  - clipId: DH_02
+    zone: 2
+    clips:
+    - {fileID: 8300000, guid: a9a8e6e5396d8c7468a0c9dd5f4ab9bd, type: 3}
+    volume: 0.9
+    priority: 5
+    cooldown: 0.4
+    maxInstances: 2
+    allowPitchVariation: 0
+    duckMusic: 0
+    duckDb: 4
+    caption: '[Record Scratch]'
+  - clipId: DH_03
+    zone: 2
+    clips:
+    - {fileID: 8300000, guid: a669b35a8af204e408ad53755949d6ca, type: 3}
+    - {fileID: 8300000, guid: a9fdaf70ce24f77478b8ee4b006f14e3, type: 3}
+    volume: 0.9
+    priority: 5
+    cooldown: 0.4
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[Glass Shatter]'
+  - clipId: DH_04
+    zone: 2
+    clips:
+    - {fileID: 8300000, guid: ce5b6bca6af59c448a4dfd68a31e38cb, type: 3}
+    volume: 0.9
+    priority: 5
+    cooldown: 0.4
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[Wah-Wah]'
+  - clipId: DH_05
+    zone: 2
+    clips:
+    - {fileID: 8300000, guid: 4ff1196b88c102f4d8c54f532cc6e00e, type: 3}
+    volume: 0.9
+    priority: 5
+    cooldown: 0.4
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[Heartbeat...]'
+  - clipId: DH_06
+    zone: 2
+    clips:
+    - {fileID: 8300000, guid: 0b1602628718ccb4f9d58938516950be, type: 3}
+    volume: 0.9
+    priority: 5
+    cooldown: 0
+    maxInstances: 2
+    allowPitchVariation: 0
+    duckMusic: 1
+    duckDb: 4
+    caption: '[Dramatic Failure]'
+  - clipId: SB_GUN
+    zone: 3
+    clips:
+    - {fileID: 8300000, guid: ea8caca1c734ebc429e38d468177cf74, type: 3}
+    volume: 0.8
+    priority: 3
+    cooldown: 1
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[Gun Ball Warning!]'
+  - clipId: SB_NUKE
+    zone: 3
+    clips:
+    - {fileID: 8300000, guid: b24962f7bedbf9f45b98b312f2aeef01, type: 3}
+    volume: 0.8
+    priority: 3
+    cooldown: 1
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 1
+    duckDb: 4
+    caption: '[Nuclear Alarm!]'
+  - clipId: SB_FIRE
+    zone: 3
+    clips:
+    - {fileID: 8300000, guid: 4f687ba6dcd2a974b8f57807a007ace5, type: 3}
+    volume: 0.8
+    priority: 3
+    cooldown: 1
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[Fire Warning!]'
+  - clipId: SB_STICKY
+    zone: 3
+    clips:
+    - {fileID: 8300000, guid: 67ecfc57a91d6b14d82fa866a85a470a, type: 3}
+    volume: 0.8
+    priority: 3
+    cooldown: 1
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[Sticky Warning!]'
+  - clipId: SB_FAST
+    zone: 3
+    clips:
+    - {fileID: 8300000, guid: 7aeee5bf1f056864c893713266d372fe, type: 3}
+    volume: 0.8
+    priority: 3
+    cooldown: 1
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 0
+    duckDb: 4
+    caption: '[Speed Warning!]'
+  - clipId: SB_RARE
+    zone: 3
+    clips:
+    - {fileID: 8300000, guid: 1bfc62fa150cb0a43b4f41d4dca6669c, type: 3}
+    volume: 0.8
+    priority: 3
+    cooldown: 1
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 1
+    duckDb: 4
+    caption: '[Rare Ball Spawn!]'
+  - clipId: SB_DUN
+    zone: 3
+    clips:
+    - {fileID: 8300000, guid: 084f2638166bc10459d52aa092ca22f3, type: 3}
+    volume: 0.8
+    priority: 3
+    cooldown: 1
+    maxInstances: 2
+    allowPitchVariation: 1
+    duckMusic: 1
+    duckDb: 4
+    caption: '[Dun Dun Dun!]'
+  - clipId: UI_REJECT_EASY
+    zone: 4
+    clips:
+    - {fileID: 8300000, guid: 72347de835809d741a4547a714a70dad, type: 3}
+    - {fileID: 8300000, guid: b3fe74dea1960b2429c7964258b6d85c, type: 3}
+    volume: 0.9
+    priority: 5
+    cooldown: 0.5
+    maxInstances: 1
+    allowPitchVariation: 0
+    duckMusic: 0
+    duckDb: 0
+    caption: '[Nope! Not that one!]'
+  - clipId: UI_REJECT_NORMAL
+    zone: 4
+    clips:
+    - {fileID: 8300000, guid: 2f87104b14ac9bb42bf2b590f15afb6c, type: 3}
+    - {fileID: 8300000, guid: 876ed7bf4b7b9304db4013bad39819fd, type: 3}
+    volume: 0.9
+    priority: 5
+    cooldown: 0.5
+    maxInstances: 1
+    allowPitchVariation: 0
+    duckMusic: 0
+    duckDb: 0
+    caption: '[Nah, that is too easy for you!]'

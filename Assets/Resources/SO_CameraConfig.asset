@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc54b66205bf1c4dbddd1aaa4d31010, type: 3}
+  m_Name: SO_CameraConfig
+  m_EditorClassIdentifier: DodgeGame.Runtime::DodgeGame.Data.CameraConfig
+  defaultYaw: 0
+  defaultPitch: 42
+  defaultDistance: 22
+  orbitSpeedMouse: 100
+  orbitSpeedGamepad: 120
+  zoomSpeed: 6
+  invertY: 0
+  minPitch: 25
+  maxPitch: 75
+  minDistance: 10
+  maxDistance: 45
+  smoothingTime: 0.12
+  resetDuration: 0.4
+  followDistance: 12
+  minFollowDistance: 5
+  maxFollowDistance: 22
+  followHeight: 2.2
+  lookAtHeight: 1.2
+  tpDefaultPitch: 22
+  tpMinPitch: 8
+  tpMaxPitch: 55
+  fieldOfView: 60
+  dashFovKick: 6
+  dashFovReturnDuration: 0.3
+  positionDamping: 0.12
+  rotationDamping: 0.08
+  verticalDamping: 0.35
+  lookAheadDistance: 0.6
+  autoRecenterDelay: 1.5
+  recenterSpeed: 60
+  sphereCastRadius: 0.3
+  collisionOffset: 0.2
+  minFloorHeight: 0.5
+  pullInDamping: 0.08
+  returnDamping: 0.4
+  arenaLayerMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  arenaBoundsMin: {x: -33, y: 0.5, z: -33}
+  arenaBoundsMax: {x: 33, y: 25, z: 33}
+  wallOcclusionPitchRaise: 1
+  fadeWallSegments: 0
+  wallFadeDuration: 0.15
+  landingNudgeAmount: 0.05
+  landingNudgeDuration: 0.2

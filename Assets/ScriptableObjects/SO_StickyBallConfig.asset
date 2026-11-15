@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89f46a3c9aeefa4791f71291db38013, type: 3}
+  m_Name: SO_StickyBallConfig
+  m_EditorClassIdentifier: Assembly-CSharp::DodgeGame.Data.StickyBallConfig
+  speed: 11
+  maxVerticalSpeed: 4
+  radius: 0.5
+  mass: 1
+  bounceMaterial: {fileID: 13400000, guid: b3b4e00ddd6729d42933897ff041f545, type: 2}
+  bounceForce: 0
+  homingEnabled: 1
+  homingAfterBounces: 2
+  homingTurnRate: 90
+  homingStrength: 0.6
+  homingLifetime: 6
+  damage: 1
+  slowMultiplier: 0.5
+  slowDuration: 2
+  gooDuration: 4

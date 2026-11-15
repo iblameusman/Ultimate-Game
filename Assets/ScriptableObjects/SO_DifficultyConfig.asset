@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e6222a697cefbb4b825e82816504459, type: 3}
+  m_Name: SO_DifficultyConfig
+  m_EditorClassIdentifier: DodgeGame.Runtime::DodgeGame.Data.DifficultyConfig
+  easy:
+    BallSpeedMultiplier: 0.8
+    SpawnIntervalMultiplier: 1.3
+    MaxActiveBalls: 5
+    StartingLives: 5
+    SkillMeterGainMultiplier: 1.3
+    ScoreMultiplier: 0.5
+  normal:
+    BallSpeedMultiplier: 1
+    SpawnIntervalMultiplier: 1
+    MaxActiveBalls: 7
+    StartingLives: 3
+    SkillMeterGainMultiplier: 1
+    ScoreMultiplier: 1
+  hard:
+    BallSpeedMultiplier: 1.2
+    SpawnIntervalMultiplier: 0.8
+    MaxActiveBalls: 9
+    StartingLives: 3
+    SkillMeterGainMultiplier: 0.9
+    ScoreMultiplier: 1.5
+  nightmare:
+    BallSpeedMultiplier: 1.4
+    SpawnIntervalMultiplier: 0.65
+    MaxActiveBalls: 11
+    StartingLives: 2
+    SkillMeterGainMultiplier: 0.8
+    ScoreMultiplier: 2
+  mappingTable:
+  - displayName: 0
+    effectiveTier: 0
+    blocksStart: 1
+    rejectVoiceClipId: UI_REJECT_EASY
+  - displayName: 1
+    effectiveTier: 1
+    blocksStart: 1
+    rejectVoiceClipId: UI_REJECT_NORMAL
+  - displayName: 2
+    effectiveTier: 0
+    blocksStart: 0
+    rejectVoiceClipId: 
+  - displayName: 3
+    effectiveTier: 1
+    blocksStart: 0
+    rejectVoiceClipId: 
+  revealTwist: 1

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 972437f380783fe428c50a0b6acb9899, type: 3}
+  m_Name: SO_NuclearBallConfig
+  m_EditorClassIdentifier: Assembly-CSharp::DodgeGame.Data.NuclearBallConfig
+  speed: 5
+  maxVerticalSpeed: 4
+  radius: 1
+  mass: 3
+  bounceMaterial: {fileID: 13400000, guid: b3b4e00ddd6729d42933897ff041f545, type: 2}
+  bounceForce: 0
+  homingEnabled: 0
+  homingAfterBounces: 2
+  homingTurnRate: 90
+  homingStrength: 0.6
+  homingLifetime: 6
+  damage: 1
+  fuseTime: 3
+  shockwaveMaxRadius: 15
+  shockwaveDuration: 1.5
+  shockwaveDamage: 1

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3148dc5315fd2340a8ec6b1a5139325, type: 3}
+  m_Name: MenuTheme
+  m_EditorClassIdentifier: DodgeGame.Runtime::DodgeGame.Data.MenuTheme
+  backgroundTop: {r: 0.957, g: 0.965, b: 0.973, a: 1}
+  backgroundBottom: {r: 1, g: 1, b: 1, a: 1}
+  hexPatternColor: {r: 0.867, g: 0.89, b: 0.91, a: 0.25}
+  accentGreen: {r: 0.239, g: 0.863, b: 0.165, a: 1}
+  accentGreenGlow: {r: 0.486, g: 1, b: 0.353, a: 1}
+  buttonDarkTop: {r: 0.184, g: 0.22, b: 0.243, a: 1}
+  buttonDarkBottom: {r: 0.133, g: 0.165, b: 0.184, a: 1}
+  textNavy: {r: 0.118, g: 0.165, b: 0.2, a: 1}
+  steelGrey: {r: 0.541, g: 0.58, b: 0.608, a: 1}
+  headerPanelTop: {r: 0.914, g: 0.929, b: 0.941, a: 1}
+  headerPanelBottom: {r: 0.827, g: 0.851, b: 0.871, a: 1}
+  headerPanelInnerBevel: {r: 1, g: 1, b: 1, a: 1}
